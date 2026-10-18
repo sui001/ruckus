@@ -163,7 +163,7 @@ void setup() {
 
   Serial.println("=== servo pattern sequencer v" VERSION " ===");
   Serial.println("Two-voice servo percussion (h = hi/up, l = lo/down), pattern over serial");
-  Serial.println("https://github.com/sui001/Servo-notes");
+  Serial.println("https://github.com/sui001/ruckus");
 
   servo.setPeriodHertz(50);
   servo.attach(SERVO_PIN, 1000, 2000);

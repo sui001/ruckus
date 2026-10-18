@@ -255,7 +255,7 @@ void setup() {
   delay(1500);
   Serial.println("=== motor sound map v" VERSION " ===");
   Serial.println("Runs each servo alone through its speeds, logs mic level and pitch per step");
-  Serial.println("https://github.com/sui001/Servo-notes/tree/main/motor_player_rig/gen3d_motor_sound_map");
+  Serial.println("https://github.com/sui001/ruckus/tree/main/motor_player_rig/gen3d_motor_sound_map");
 
   Wire.begin(PIN_SDA, PIN_SCL);
   Wire.setTimeOut(50);

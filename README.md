@@ -1,4 +1,11 @@
-# Servo + INMP441 note-scan test
+# Ruckus
+
+Hobby servos' own mechanical noise as a sound source. It started as a
+note-scan test on single servos (below) and grew into the motor player rig:
+eight continuous servos, tuned by ear with a mic, playing tunes. The repo
+was called Servo-notes until 19 Oct 2026.
+
+## Servo + INMP441 note-scan test
 
 ## Wiring
 - INMP441: VDD→3V3, GND→GND, L/R→GND (left channel), WS→GPIO12, SCK→GPIO11, SD→GPIO13

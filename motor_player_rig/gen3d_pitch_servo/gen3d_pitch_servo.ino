@@ -176,7 +176,7 @@ void setup() {
   delay(1500);
   Serial.println("=== pitch servo v" VERSION " ===");
   Serial.println("INMP441 sound drives 3 servos: pitch->MG996R ch11, note->180 ch15, loudness->continuous ch0");
-  Serial.println("https://github.com/sui001/Servo-notes/tree/main/motor_player_rig/gen3d_pitch_servo");
+  Serial.println("https://github.com/sui001/ruckus/tree/main/motor_player_rig/gen3d_pitch_servo");
 
   Wire.begin(PIN_SDA, PIN_SCL);
   Wire.setTimeOut(50);

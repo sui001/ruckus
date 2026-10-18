@@ -67,7 +67,7 @@ void setup() {
 
   Serial.println("=== servo tune player v" VERSION " ===");
   Serial.println("Continuous-rotation servo played by speed, W <us> over serial, mic streamed as raw 16-bit PCM");
-  Serial.println("https://github.com/sui001/Servo-notes");
+  Serial.println("https://github.com/sui001/ruckus");
 
   servo.setPeriodHertz(50);
   servo.attach(SERVO_PIN, 1000, 2000);

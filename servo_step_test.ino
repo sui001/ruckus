@@ -155,7 +155,7 @@ void setup() {
 
   Serial.println("=== servo step-size test v" VERSION " ===");
   Serial.println("Does tick rate follow step size or step interval? JSON plan, then raw 16-bit PCM");
-  Serial.println("https://github.com/sui001/Servo-notes");
+  Serial.println("https://github.com/sui001/ruckus");
 
   servo.setPeriodHertz(50);
   servo.attach(SERVO_PIN, 1000, 2000);

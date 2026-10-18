@@ -134,7 +134,7 @@ void setup() {
   delay(1500);  // native USB CDC needs a moment
   Serial.println("=== INMP441 mic test v" VERSION " ===");
   Serial.println("Mic bring-up: level in dBFS, dominant pitch, nearest note");
-  Serial.println("https://github.com/sui001/Servo-notes/tree/main/motor_player_rig/gen3d_mic_test");
+  Serial.println("https://github.com/sui001/ruckus/tree/main/motor_player_rig/gen3d_mic_test");
   Serial.printf("SCK=%d WS=%d SD=%d, %d Hz, %d-sample window, gate %.1f dBFS\n",
                 PIN_SCK, PIN_WS, PIN_SD, SAMPLE_RATE, N_SAMPLES, gateDb);
   setupI2S();

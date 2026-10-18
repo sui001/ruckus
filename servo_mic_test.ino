@@ -225,7 +225,7 @@ void setup() {
 
   Serial.println("=== servo note-scan test v" VERSION " ===");
   Serial.println("Servo move sweep recorded on an I2S mic: JSON plan, then raw 16-bit PCM");
-  Serial.println("https://github.com/sui001/Servo-notes");
+  Serial.println("https://github.com/sui001/ruckus");
 
   servo.setPeriodHertz(50);
   servo.attach(SERVO_PIN, 1000, 2000);

@@ -124,7 +124,7 @@ void setup() {
   delay(1500);  // native USB CDC needs a moment
   Serial.println("=== PCA9685 servo test v" VERSION " ===");
   Serial.println("PCA9685 bring-up: continuous servo on ch0, 180 servo on ch15");
-  Serial.println("https://github.com/sui001/Servo-notes/tree/main/motor_player_rig/gen3d_pca9685_servo_test");
+  Serial.println("https://github.com/sui001/ruckus/tree/main/motor_player_rig/gen3d_pca9685_servo_test");
 
   if (!findBus()) {
     Serial.println("PCA9685 not found on any pin pair. Halting, no servo output.");

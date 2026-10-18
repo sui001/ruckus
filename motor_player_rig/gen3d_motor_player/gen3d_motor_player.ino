@@ -1172,7 +1172,7 @@ void setup() {
   delay(1500);
   Serial.println("=== motor player v" VERSION " ===");
   Serial.println("Servos as instruments: up to 8 continuous motors on ch0-7, tuned both directions by mic, MG996R + 180 drums");
-  Serial.println("https://github.com/sui001/Servo-notes/tree/main/motor_player_rig/gen3d_motor_player");
+  Serial.println("https://github.com/sui001/ruckus/tree/main/motor_player_rig/gen3d_motor_player");
 
   Wire.begin(PIN_SDA, PIN_SCL);
   Wire.setTimeOut(50);
