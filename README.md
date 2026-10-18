@@ -159,3 +159,18 @@ detector was rewritten and checked against known tones afterwards.
   **45–60 minutes** for the first full pass across 3–4 servos.
 
 Second pass will be faster once the rig and plan are known-good.
+
+## Motor player rig
+
+`motor_player_rig/` is where this went next: eight continuous servos on a
+PCA9685 (ch0-7), an INMP441 mic, and an ESP32-S3 SuperMini. Each motor is
+tuned by ear at boot, then the rig plays tunes. The sketches came across from
+another repo on 19 Oct 2026, which is why they keep their `gen3d_` names.
+
+| Sketch | What it does |
+|---|---|
+| `gen3d_mic_test` | INMP441 bring-up: level, pitch and note name over serial |
+| `gen3d_pca9685_servo_test` | PCA9685 bring-up: one continuous and one 180 degree servo |
+| `gen3d_motor_sound_map` | Runs each servo through its speed range and records what the mic hears |
+| `gen3d_pitch_servo` | Sound to servos: pitch, note and level on three positional servos |
+| `gen3d_motor_player` | The player: mic-tuned continuous servos as instruments |
